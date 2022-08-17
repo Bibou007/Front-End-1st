@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+       
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/
+    font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>My First Landing Page</title>
+    
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Apparition noir et bleu -->
+    <div class="open">
+            <div class="layer"></div>
+            <div class="layer"></div>
+        </div>
+<!-- Le section du texte -->
+        <section> 
+            <div class="header">
+                <h2 class="logo">Your Logo</h2>
+                <i class="far far-bars x2" onclick="menuToogle()"></i>
+                <ul  id="navigation">
+                    <li>
+                        <a href="#" class=active>Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Our work</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <i class="far far-times x2" onclick="menuToogle()"></i>
+                </ul>
+            </div>
+            <div class="bannerText">
+            <h2>Think Creative</h2><br> 
+            <h3>And Make Innovative Design</h3>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Repellat, id voluptates! Inventore nam aliquid explicabo sapiente! 
+            Ipsum reiciendis perspiciatis veniam porro eius minima, maxime tenetur fugiat architecto nostrum totam ipsam natus incidunt fugit nobis cum. 
+            Quaerat cum error tempora, sint dolorum ab totam magni ipsam earum laborum pariatur fugiat vitae ad, dolore dolorem consectetur dolor.
+             Perspiciatis doloremque esse voluptatum praesentium?</p>
+            <a href="#">Read More</a>
+            
+        </div>
+        <img src="bubl3.png" alt="bubl" class=bulb >
+        <ul class="social">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkeln"></i></a></li>
+        </ul>
+        <div class="element1"></div>
+        <div class="element2"></div>
+    </section>
+        <script type="text/javascript">
+        function menuToogle(){
+            let element=document.getElementById("navigation")
+            element.classList.toogle("show")
+        }
+        </script>
+</body>
+</html>
